@@ -6,6 +6,7 @@ public abstract class Gift {
     private double price;
     private double weight;
 
+
     //Конструктор
     public Gift(String tovar, double price, double weight) {
         this.tovar = tovar;
@@ -43,5 +44,6 @@ public abstract class Gift {
     public String toString() {
         return "Товар: "+tovar+" Вес: "+ weight + " Цена: "+price;
     }
+
 
 }

@@ -7,6 +7,13 @@
     <groupId>al_1</groupId>
     <artifactId>al_1</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
     <configuration>
         <archive>
             <manifest>
@@ -16,6 +23,15 @@
             </manifest>
         </archive>
     </configuration>
+
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependency>
+        <groupId>al_1</groupId>
+        <artifactId>al_1</artifactId>
+        <version>4.11</version>
+        <scope>test</scope>
+    </dependency>
+
 
 
 </project>
